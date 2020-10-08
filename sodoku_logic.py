@@ -30,4 +30,4 @@ def solve_board(board):
 
 solve_board(board)
 
-print_board(board)
+# print_board(board)

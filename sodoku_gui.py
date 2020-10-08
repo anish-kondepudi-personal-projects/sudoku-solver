@@ -5,9 +5,9 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Sodoku Solver")
-root.iconbitmap("C:/Users/Anish/Desktop/Data/Python/Code/Projects/Sodoku Solver/metadata/sodoku_icon.ico")
+root.iconbitmap("./metadata/sodoku_icon.ico")
 
-main_img = ImageTk.PhotoImage(Image.open("C:/Users/Anish/Desktop/Data/Python/Code/Projects/Sodoku Solver/metadata/sodoku_solver_image.png"))
+main_img = ImageTk.PhotoImage(Image.open("./metadata/sodoku_solver_image.png"))
 main_label = Label(image=main_img)
 main_label.grid(row=0, column=0, rowspan=6)
 
